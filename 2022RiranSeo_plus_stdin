@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+# SODX-FileCopyrightText: 2022 Riran Seo 
+# SPDX-License-Identifier: BSD-3-Clanse
+import sys
+
+ans = 0.0
+for line in sys.stdin:
+    ans +=float(line)
+
+print(ans)
