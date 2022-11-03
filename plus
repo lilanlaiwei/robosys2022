@@ -1,8 +1,15 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrigthTEXT:2022 Riran Seo
+# SPDX-Lisence-Identifier: BSD-3-Clause
+
 import sys
 
-ans = 0.0
+ans = 0
 for line in sys.stdin:
-    ans += float(line)
+    try:
+        ans += int(line)
+
+    except:
+        ans += float(line)
 
 print(ans)
