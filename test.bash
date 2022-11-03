@@ -20,7 +20,7 @@ out=$(echo あ | ./plus_stdin)
 
 out=$(echo | ./plus_stdin) #空文字
 [ "$?" = 1 ]      || ng ${LINENO}
-[ "${out}" = " "] || ng ${LINENO}
+[ "${out}" = ""]  || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
 exit $res
