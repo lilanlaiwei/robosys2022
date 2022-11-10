@@ -1,5 +1,5 @@
 # plusコマンド
-![test](https://github.com/lilanlaiwei/robosys2022/actions/workflows/test.yml/badge.svg)
+[![test](https://github.com/lilanlaiwei/robosys2022/actions/workflows/test.yml/badge.svg)](https://github.com/lilanlaiwei/robosys2022/actions/workflows/test.yml)
 
 
 ### 用途
@@ -7,7 +7,7 @@
 
 
 ### 使い方
-* 
+*  
 
 ### 著作権、ライセンスについて
  * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．

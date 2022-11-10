@@ -2,7 +2,7 @@
 # SPDX-FileCopyrightText: 2022 Riran Seo
 # SPDX-License-Indentifier: BSD-3-Clause
 
-ng () {
+ng ( ) {
 	echo NG at Line $1
 	res=1
 }
