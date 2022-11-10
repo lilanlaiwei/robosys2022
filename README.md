@@ -1,5 +1,5 @@
 # plusコマンド
-![test] (https://github.com/lilanlaiwei/robosys2022/.github/workflows/test.yml)
+![test] (https://github.com/lilanlaiwei/robosys2022/blob/main/.github/workflows/test.yml)
 
 
 
