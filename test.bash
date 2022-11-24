@@ -9,6 +9,8 @@ ng ( ) {
 
 res=0
 
+##plus##
+
 ### I/O ###
 out=$(seq 5 | ./plus)
 [ "${out}" = 15 ] || ng ${LINENO}
@@ -19,6 +21,22 @@ out=$(echo あ | ./plus)
 [ "${out}" = "" ] || ng ${LINENO}
 
 out=$(echo | ./plus) #空文字
+[ "$?" = 1 ]       || ng ${LINENO}
+[ "${out}" = "" ]  || ng ${LINENO}
+
+
+##kaijou##
+
+### I/O ###
+out=$(seq 5 | ./kaijou)
+[ "${out}" = 120 ] || ng ${LINENO}
+
+### STRANGE INPUT ###
+out=$(echo あ | ./kaijou)
+[ "$?" = 1 ]      || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
+
+out=$(echo | ./kaijou) #空文字
 [ "$?" = 1 ]       || ng ${LINENO}
 [ "${out}" = "" ]  || ng ${LINENO}
 
