@@ -1,6 +1,7 @@
-# plusコマンド
+# robosys2022
 [![test](https://github.com/lilanlaiwei/robosys2022/actions/workflows/test.yml/badge.svg)](https://github.com/lilanlaiwei/robosys2022/actions/workflows/test.yml)
 
+##plusコマンド
 
 ### 用途
 * 標準入力から読み込んだ数字を足す。
@@ -20,7 +21,7 @@
   * テスト済み: 3.7～3.10
 
 ## テスト環境
-* Ubuntu
+* Ubuntu18.041
 
 ©　2022 Riran Seo
 
