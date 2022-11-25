@@ -1,11 +1,12 @@
 # robosys2022
 [![test](https://github.com/lilanlaiwei/robosys2022/actions/workflows/test.yml/badge.svg)](https://github.com/lilanlaiwei/robosys2022/actions/workflows/test.yml)
+千葉工業大学未来ロボティクス学科の2022年度のロボットシステム学の課題で作成したリポジトリです。
 
 ## 概要
-千葉工業大学のロボットシステム学の課題で作成したリポジトリです。
+足し算をする``` plus.py```と階乗をする```kaijou.py```についての説明を下に記しています。
 
+## plus.py
 
-## plusコマンド
 
 ### 用途
 * 標準入力から読み込んだ数字を足す。
