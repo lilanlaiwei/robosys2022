@@ -9,6 +9,7 @@ ng ( ) {
 
 res=0
 
+
 ##plus.py##
 
 ### I/O ###
@@ -27,6 +28,7 @@ out=$(echo | ./plus.py) #空文字
 [ "$res" = 0 ] && echo OK
 exit $res
 
+
 ##kaijou.py##
 
 ### I/O ###
@@ -39,6 +41,25 @@ out=$(echo あ | ./kaijou.py)
 [ "${out}" = "" ] || ng ${LINENO}
 
 out=$(echo | ./kaijou.py) #空文字
+[ "$?" = 1 ]       || ng ${LINENO}
+[ "${out}" = "" ]  || ng ${LINENO}
+
+[ "$res" = 0 ] && echo OK
+exit $res
+
+
+##sin.py##
+
+### I/O ###
+out=$(./sin.py 30)
+[ "${out}" = 0.49999999999999994 ] || ng ${LINENO}
+
+### STRANGE INPUT ###
+out=$(echo あ | ./sin.py)
+[ "$?" = 1 ]      || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
+
+out=$(echo | ./sin.py) #空文字
 [ "$?" = 1 ]       || ng ${LINENO}
 [ "${out}" = "" ]  || ng ${LINENO}
 
