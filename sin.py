@@ -7,7 +7,7 @@ import sys
 
 ans = 0
 for n in sys.argv[1:]:
-    x = float(n)
+    x = int(n)
 
     if x == 0 or x == 180:
         ans = math.sin(math.radians(0))
