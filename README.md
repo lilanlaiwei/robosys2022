@@ -1,5 +1,6 @@
 # robosys2022
 [![test](https://github.com/lilanlaiwei/robosys2022/actions/workflows/test.yml/badge.svg)](https://github.com/lilanlaiwei/robosys2022/actions/workflows/test.yml)
+
 千葉工業大学未来ロボティクス学科の2022年度のロボットシステム学の課題で作成したリポジトリです。
 
 ## 概要
