@@ -9,34 +9,36 @@ ng ( ) {
 
 res=0
 
-##plus##
+##plus.py##
 
 ### I/O ###
-out=$(seq 5 | ./plus)
+out=$(seq 5 | ./plus.py)
 [ "${out}" = 15 ] || ng ${LINENO}
 
 ### STRANGE INPUT ###
-out=$(echo あ | ./plus)
+out=$(echo あ | ./plus.py)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
-out=$(echo | ./plus) #空文字
+out=$(echo | ./plus.py) #空文字
 [ "$?" = 1 ]       || ng ${LINENO}
 [ "${out}" = "" ]  || ng ${LINENO}
 
+[ "$res" = 0 ] && echo OK
+exit $res
 
-##kaijou##
+##kaijou.py##
 
 ### I/O ###
-out=$(seq 5 | ./kaijou)
+out=$(seq 5 | ./kaijou.py)
 [ "${out}" = 120 ] || ng ${LINENO}
 
 ### STRANGE INPUT ###
-out=$(echo あ | ./kaijou)
+out=$(echo あ | ./kaijou.py)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
-out=$(echo | ./kaijou) #空文字
+out=$(echo | ./kaijou.py) #空文字
 [ "$?" = 1 ]       || ng ${LINENO}
 [ "${out}" = "" ]  || ng ${LINENO}
 
