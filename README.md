@@ -4,7 +4,7 @@
 ロボットシステム学の課題で作成したリポジトリです。
 
 ## 概要
-足し算をする```plus.py```と階乗をする```kaijou.py```三角関数の正弦を求める```sin.py```についての説明を下に記す。
+足し算をする```plus```と階乗をする```kaijou```三角関数の正弦を求める```sin```についての説明を下に記す。
 
 ## インストール
 ```
@@ -15,7 +15,7 @@ $  git clone git@github.com:lilanlaiwei/robosys2022.git
 
 ### 実行例
 ```
-seq 5 | ./plus.py
+seq 5 | ./plus
 ```
 1～5の数字すべてを足す。
 
@@ -24,12 +24,12 @@ seq 5 | ./plus.py
 15
 ``` 
 
-## kaijou
+## multiplication
 * 標準入力から読み込んだ数字を掛ける。
 
 ### 実行例
 ```
-seq 5 | ./kaijou.py
+seq 5 | ./multiplication
 ```
 1～5の数字すべてを掛ける。
 
@@ -43,7 +43,7 @@ seq 5 | ./kaijou.py
 
 ### 実行例
 ```
-./sin.py 30
+./sin 30
 ```
 sin30を求める。
 
