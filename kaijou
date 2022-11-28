@@ -6,10 +6,15 @@ import sys
 
 ans = 1
 for line in sys.stdin:
-    try:
-        ans *= int(line)
+    
+    if line == 0:
+        print(0)
+    
+    else
+        try:
+            ans *= int(line)
 
-    except:
-        ans *= float(line)
+        except:
+            ans *= float(line)
 
 print(ans)
