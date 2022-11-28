@@ -10,18 +10,18 @@ ng ( ) {
 res=0
 
 
-##plus.py##
+##plus##
 
 ### I/O ###
-out=$(seq 5 | ./plus.py)
+out=$(seq 5 | ./plus)
 [ "${out}" = 15 ] || ng ${LINENO}
 
 ### STRANGE INPUT ###
-out=$(echo あ | ./plus.py)
+out=$(echo あ | ./plus)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
-out=$(echo | ./plus.py) #空文字
+out=$(echo | ./plus) #空文字
 [ "$?" = 1 ]       || ng ${LINENO}
 [ "${out}" = "" ]  || ng ${LINENO}
 
@@ -29,18 +29,18 @@ out=$(echo | ./plus.py) #空文字
 exit $res
 
 
-##kaijou.py##
+##kaijou##
 
 ### I/O ###
-out=$(seq 5 | ./kaijou.py)
+out=$(seq 5 | ./kaijou)
 [ "${out}" = 120 ] || ng ${LINENO}
 
 ### STRANGE INPUT ###
-out=$(echo あ | ./kaijou.py)
+out=$(echo あ | ./kaijou)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
-out=$(echo | ./kaijou.py) #空文字
+out=$(echo | ./kaijou) #空文字
 [ "$?" = 1 ]       || ng ${LINENO}
 [ "${out}" = "" ]  || ng ${LINENO}
 
@@ -48,18 +48,18 @@ out=$(echo | ./kaijou.py) #空文字
 exit $res
 
 
-##sin.py##
+##sin##
 
 ### I/O ###
-out=$(./sin.py 30)
+out=$(./sin 30)
 [ "${out}" = 0.49999999999999994 ] || ng ${LINENO}
 
 ### STRANGE INPUT ###
-out=$(echo あ | ./sin.py)
+out=$(echo あ | ./sin)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
-out=$(echo | ./sin.py) #空文字
+out=$(echo | ./sin) #空文字
 [ "$?" = 1 ]       || ng ${LINENO}
 [ "${out}" = "" ]  || ng ${LINENO}
 
