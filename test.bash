@@ -29,18 +29,18 @@ out=$(echo | ./plus) #空文字
 exit $res
 
 
-##kaijou##
+###multiplication#
 
 ### I/O ###
-out=$(seq 5 | ./kaijou)
+out=$(seq 5 | ./multiplication)
 [ "${out}" = 120 ] || ng ${LINENO}
 
 ### STRANGE INPUT ###
-out=$(echo あ | ./kaijou)
+out=$(echo あ | ./multiplication)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
-out=$(echo | ./kaijou) #空文字
+out=$(echo | ./multiplication) #空文字
 [ "$?" = 1 ]       || ng ${LINENO}
 [ "${out}" = "" ]  || ng ${LINENO}
 
