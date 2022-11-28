@@ -1,5 +1,5 @@
 # robosys2022
-[![test](https://github.com/lilanlaiwei/robosys2022/actions/workflows/test.yml/badge.svg)](https://github.com/lilanlaiwei/robosys2022/actions/workflows/test.yml)
+[![test](https://github.com/lilanlaiwei/robosys2022/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/lilanlaiwei/robosys2022/actions/workflows/test.yml)
 
 ロボットシステム学の課題で作成したリポジトリです。
 
