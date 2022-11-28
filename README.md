@@ -8,7 +8,7 @@
 
 ## インストール
 ```
-git clone git@github.com:lilanlaiwei/robosys2022.git
+$  git clone git@github.com:lilanlaiwei/robosys2022.git
 ```
 ## plus
 * 標準入力から読み込んだ数字を足す。
@@ -59,8 +59,8 @@ sin30を求める。
 * Ubuntu18.04
 
 ## 著作権、ライセンスについて
- * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます。
- * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたも>のです。
+ * このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
+ * このパッケージのコードは、下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを、本人の許可を得て自身の著作としたものです。
       * [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 
 ©　2022 Riran Seo
