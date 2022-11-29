@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# SPDX-FileCopyrightTEXT:2022 Riran Seo
+# SPDX-FileCopyrightText:2022 Riran Seo
 # SPDX-Lisence-Identifier: BSD-3-Clause
 
 import sys
