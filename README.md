@@ -17,7 +17,7 @@ $  git clone https://github.com/lilanlaiwei/robosys2022.git
 ```
 seq 5 | ./plus
 ```
-	* 1～5の数字すべてを足す。
+   * 1～5の数字すべてを足す。
 
 ### 結果
 ```
@@ -31,7 +31,7 @@ seq 5 | ./plus
 ```
 seq 5 | ./multiplication
 ```
-	* 1～5の数字すべてを掛ける。
+   * 1～5の数字すべてを掛ける。
 
 ### 結果
 ```
@@ -46,7 +46,7 @@ seq 5 | ./multiplication
 ```
 ./sin 30
 ```
-	* sin30を求める。
+   * sin30を求める。
 
 ### 結果
 ```
