@@ -6,7 +6,7 @@
 ## 概要
 足し算をする```plus```と、階乗をする```multiplication```と、三角関数の正弦を求める```sin```についての説明を下に記す。
 
-## インストール
+## ダウンロード 
 ```
 $  git clone https://github.com/lilanlaiwei/robosys2022.git
 ```
@@ -70,8 +70,7 @@ seq 5 | ./multiplication
  * このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
  
  * このパッケージのコードは、下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを、本人の許可を得て自身の著作としたものです。
-      
- * [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
+       * [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 
 	©　2022 Riran Seo
 
